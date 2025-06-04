@@ -11,6 +11,10 @@ public class Topping {
         this.price = price;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
     @Override
     public String toString() {
         return name + " (" + calories + " cal, €" + price + ")";
